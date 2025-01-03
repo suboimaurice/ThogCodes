@@ -20,6 +20,9 @@ window.addEventListener("load", function() {
 
 // Wait until the document is fully loaded before executing the script
 document.addEventListener("DOMContentLoaded", () => {
+ const currentDate = new Date().getFullYear();
+const yearElement = document.getElementById("year");
+yearElement.textContent = currentDate;
     // Select the container where the project cards will be added
     const projectsContainer = document.querySelector(".project-cards-container");
 
@@ -53,6 +56,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 // Append the created card to the container in the HTML
                 projectsContainer.appendChild(projectCard);
+                
+                //dynamically update date on footer
             });
         } catch (error) {
             // If there's an error (e.g., network issue), log it to the console
@@ -193,3 +198,5 @@ document.addEventListener("DOMContentLoaded", () => {
     // TODO: Fetch real-time data from platforms via APIs
     // Example: Use APIs from W3Schools, Codecademy, or other learning platforms
 });
+
+
