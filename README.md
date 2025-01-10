@@ -1,2 +1,2 @@
 # ThogCodes
-This specifically a simple site to showcasing my dev projects and graphic designs
+This is a simple site to showcase my dev projects and graphic designs
