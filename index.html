@@ -1,154 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>ThogCodes</title>
-	<script
-		src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-	<link
-	rel="stylesheet"
-	href="css/styles.css">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>ThogCodes</title>
+ <script
+  src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+ <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	<!-- Loader -->
-	<div class="loader"></div>
+ <!-- Loader -->
+ <div class="loader"></div>
 
-	<!-- Top Header -->
-	<header class="top-header">
-		<div class="logo">
-			<img id="logo-image" src="images/6.jpg" alt="Mr Thog Logo">
-			<h1 id="logo-text">Thog Codes</h1>
-		</div>
-		<!-- Navigation Menu -->
-		<nav>
-			<ul>
-				<li><a href="#hero-section">Home</a></li>
-				<li><a href="#about-section">About</a></li>
-				<li><a href="latest.html">Updates</a></li>
-			</ul>
-		</nav>
-	</header>
+ <!-- Top Header -->
+ <header class="top-header">
+  <div class="logo">
+   <img id="logo-image" src="images/Suboi Maurice.png" alt="Mr Thog Logo">
+   <h1 id="logo-text">ThogCodes</h1>
+  </div>
+  <!-- Navigation Menu -->
+  <nav>
+   <ul>
+    <li><a href="#hero-section">Home</a></li>
+    <li><a href="#about-section">About</a></li>
+    <li><a href="#contact-section">Contact</a></li>
+    <li><a href="src/updates.html" id="updates-link">Updates</a></li>
+   </ul>
+  </nav>
+ </header>
 
-	<!-- Main Content -->
-	<main class="main">
-		<!-- Video Section -->
-		<section id="video-section">
-			<div class="video-container">
-				<video autoplay muted loop id="video-background">
-					<source src="videos/hero-video.mp4" type="video/mp4">
-				</video>
-			</div>
-			<h1>ThogCodes at work</h1>
-		</section>
+ <!-- Main Content -->
+ <main class="main">
+  <!-- Video Section -->
+  <section id="video-section">
+   <div class="video-container">
+    <video autoplay muted loop id="video-background">
+     <source src="videos/hero-video.mp4" type="video/mp4">
+    </video>
+   </div>
+   <h1>ThogCodes at work</h1>
+  </section>
 
-		<!-- Hero Section -->
-		<section id="hero-section">
-			<div class="hero-content">
-				<img id="hero-image" src="./images/thog_codes.jpg" alt="Hero Image">
-				<div class="hero-text">
-					<h1 id="hero-header">Thog Codes; The Warthog Wisdom</h1>
-					<p>
-						Discover the ThogCode's unique approach to overcoming obstacles and achieving greatness.
-					</p>
-					<button onclick="">Explore</button>
-				</div>
-			</div>
-		</section>
+  <!-- Hero Section -->
+  <section id="hero-section">
+   <div class="hero-content">
+    <img id="hero-image" src="./images/.jpg" alt="Hero Image">
+    <div class="hero-text">
+     <h1 id="hero-header">ThogCodes; The Warthog Wisdom</h1>
+     <p>
+      Discover the ThogCode's unique approach to overcoming obstacles and achieving greatness.
+     </p>
+     <br>
+     <a href="./assets/cv/css_shapes.pdf" download class="btn-download">Download CV</a>
+    </div>
+   </div>
+  </section>
 
-		<!-- About Section -->
-		<section id="about-section">
-			<div class="about-content">
-				<div class="about-text">
-					<h1 id="about-header">Behind the Tusks; It's a self taught developer</h1>
-					<img id="about-image" src="./images/v16-wartog.jpg" alt="About Image">
-					<p>
-						Get to know the team behind the tusks! I'm a passionate and dedicated individual who	is driven passion. Learn more about my story, values, and mission, and discover what
-						makes me stand out.
-					</p>
-					<a href="#">Read more</a>
-				</div>
-			</div>
-		</section>
+  <!-- About Section -->
+  <section id="about-section">
+   <div class="about-content">
+    <div class="about-text">
+     <h1 id="about-header">Behind the Tusks; It's a self taught developer</h1>
+     <img id="about-image" src="assets/images/my_image1.jpg" alt="About Image">
+     <p>
+      Get to know the team behind the tusks! I'm a passionate and dedicated individual who	is driven passion. Learn more about my story, values, and mission, and discover what
+      makes me stand out.
+     </p>
+     <button id="read-more-btn">Read more</button>
+    </div>
+   </div>
+  </section>
 
-		<!--Projects Section-->
-		<section id="projects-section">
-			<h2>Projects</h2>
-			<div class="project-cards-container">
-				<!-- Cards will be dynamically loaded here -->
-			</div>
-		</section>
+  <!--Projects Section-->
+  <section id="projects-section">
+   <h2>Projects</h2>
+   <div class="project-cards-container">
+    <!-- Cards will be dynamically loaded here -->
+   </div>
+  </section>
 
-		<!--Garphics	Design	Section-->
-		<section id="graphic-designs">
-			<h2>Graphic Designs</h2>
-			<div class="design-cards-container">
-				<!-- Cards-->
-				<div class="design-card">
-					
-				</div>
-			</div>
-		</section>
+  <!--Garphics	Design	Section-->
+  <section id="graphic-designs">
+   <h2>Graphic Designs</h2>
+   <div class="design-cards-container">
+    <!-- Cards-->
+    <div class="design-card">
 
-		<!--Skills Section-->
-		<section id="skills-section">
-			<h2>My Skills & Proficiency</h2>
-			<canvas id="skillsChart" width="400" height="400"></canvas>
-			<p>
-				Track my skill progress in real-time!
-			</p>
-		</section>
+    </div>
+   </div>
+  </section>
 
-		<!--Contact Section-->
-		<section id="contact-section">
-			<h2>Get in touch</h2>
-			<form id="contact-form" action="mailto:your-email@example.com" method="POST" enctype="text/plain">
-				<label for="name">Your Name</label>
-				<input type="text" id="name" name="name" placeholder="Enter your name" required>
+  <!--Skills Section-->
+  <section id="skills-section">
+   <h2>My Skills & Proficiency</h2>
+   <canvas id="skillsChart" width="200" height="200"></canvas>
+   <p>
+    Track my skill progress in real-time!
+   </p>
+  </section>
 
-				<label for="email">Your Email</label>
-				<input type="email" id="email" name="email" placeholder="Enter your email" required>
+  <!--Contact Section-->
+  <section id="contact-section">
+   <h2>Get in touch</h2>
+   <form id="contact-form" action="send_mail.php" method="POST">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
-				<label for="message">Your Message</label>
-				<textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+    <label for="email">Your Email</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
-				<button type="submit">Send Message</button>
-			</form>
+    <label for="message">Your Message</label>
+    <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
 
-			<div id="whatsapp-container">
-				<p>
-					Prefer a quick chat?
-				</p>
-				<a href="https://wa.me/1234567890" target="_blank" id="whatsapp-button">
-					<img src="images/whatsapp.png" alt="Chat on WhatsApp"> Chat on WhatsApp
-				</a>
-			</div>
-		</section>
+    <button type="submit">Send Message</button>
+   </form>
 
-	</main>
+   <div id="whatsapp-container">
+    <p>
+     Prefer a quick chat?
+    </p>
+    <a href="https://wa.me/233540340963" target="_blank" id="whatsapp-button">
+     <img src="images/whatsapp.png" alt="Chat on WhatsApp"> Chat on WhatsApp
+    </a>
+   </div>
+  </section>
+ </main>
 
-	<!-- Footer -->
-	<footer>
-		<div class="footer-container">
-			<div class="social-links">
-				<a href="#" target="_blank">
-					<img src="images/tiktok.png" alt="Tiktok">
-				</a>
-				<a href="https://m.facebook.com/suboimaurice/" target="_blank">
-					<img src="images/facebook.png" alt="Facebook">
-				</a>
-			</div>
-			<div class="vertical-line"></div>
-			<div class="logo-image-container">
-				<img id="logo-image" src="images/6.jpg" alt="Footer Logo">
-			</div>
-		</div>
-		<hr>
-		<p id="copy-right">
-			Copyright © <span id="year">2024</span>. All Rights Reserved.
-		</p>
-	</footer>
+ <!-- Footer -->
+ <footer>
+  <div class="footer-container">
+   <div class="social-links">
+    <a href="#contact-section" target="_blank">
+     <img src="images/email.png" alt="Email">
+    </a>
+    <a href="#" target="_blank">
+     <img src="images/youtube.png" alt="YouTube">
+    </a>
+    <a href="#" target="_blank">
+     <img src="images/tiktok.png" alt="LinkedIn">
+    </a>
+    <a href="#" target="_blank">
+     <img src="images/tiktok.png" alt="Tiktok">
+    </a>
+    <a href="https://m.facebook.com/suboimaurice/" target="_blank">
+     <img src="images/facebook.png" alt="Facebook">
+    </a>
+   </div>
+   <div class="vertical-line"></div>
+   <div class="logo-image-container">
+    <img id="logo-image" src="images/Suboi Maurice.png" alt="Footer Logo">
+   </div>
+  </div>
+  <hr>
+  <p id="copy-right">
+   Copyright © <span id="year">2024</span>. All Rights Reserved.
+  </p>
+ </footer>
 
-	<script src="js/index.js"></script>
+ <script src="js/index.js"></script>
+ <!--<script src="js/updates.js"></script>-->
 </body>
 </html>

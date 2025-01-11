@@ -1,0 +1,45 @@
+body {
+ background-color: honeydew;
+}
+#my-details {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ margin: 0 10px;
+ text-align: center;
+}
+h1, h3 {
+ padding: 10px;
+ background: linear-gradient(to left, #a8cf45, #130200);
+ -webkit-background-clip: text;
+ background-clip: text;
+ color: transparent;
+}
+#my-details img {
+ max-width: 200px;
+ border-radius: 5px;
+ margin-bottom: 5px;
+}
+#my-details p {
+ text-align: center;
+ padding: 8px;
+}
+
+#my-details p span {
+ font-size: 1em;
+ font-weight: 600;
+
+}
+
+#my-details a {
+ margin-top: 10px;
+}
+
+hr {
+ width: 100%;
+ border: 0;
+ border-top: 1px solid #eee;
+ margin: 20px 0;
+}
